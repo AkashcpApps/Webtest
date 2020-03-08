@@ -29,6 +29,21 @@ URI     : https://colorlib.com
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
+    <style type="text/css">
+	.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+	</style>
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
@@ -444,7 +459,11 @@ background: #750296 !important ;
                     <div class="d-block d-sm-inline-block">
                       <p > <a>+91  9876543210</a>  </p>
                     </div>
-
+<div class="container-fluid">
+    <div class="map-responsive">
+   <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Alpha+Eden" width="600" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
                 </div>
                 <div class="col-lg-6">
                     <div class="social-icons">
@@ -452,6 +471,49 @@ background: #750296 !important ;
                         <a href="#"><span class="ti-twitter-alt"></span></a>
                         <a href="#"><span class="ti-instagram"></span></a>
                     </div>
+                                        <div class="container">
+                        <div class="row">
+                            <h2>Feedback</h2>
+                            <table width="80%" border="0">
+                                <div class="col-md-9 col-md-offset-0">
+                                    <tr>
+                                        <td width="77%">
+                                            <div class="">
+                                                <form class="form-horizontal">
+                                                    <fieldset>
+
+                                                        
+                                                        <div class="form-group">
+                                                            <label class="col-md-3 control-label" for="email">E-mail</label>
+                                                            <div class="col-md-9">
+                                                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                                            </div>
+                                                        </div>
+
+                                                       
+                                                        <div class="form-group">
+                                                            <label class="col-md-3 control-label" for="message">Message</label>
+                                                            <div class="col-md-9">
+                                                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your feedback here..." rows="5"></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        
+                                                        <div class="form-group">
+                                                            <div class="col-md-12 text-center">
+                                                                <button type="submit" class="btn btn-primary btn-md">Submit</button>
+                                                                <button type="reset" class="btn btn-default btn-md">Clear</button>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </form>
+                                            </div>
+                                </div>
+                                </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div> 
                 </div>
             </div>
 
